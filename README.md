@@ -61,14 +61,3 @@
   <img src="https://img.shields.io/badge/GitHub%20Actions-101827?style=flat-square&amp;logo=githubactions&amp;logoColor=a5b4fc" alt="GitHub Actions" />
 </p>
 
-## Selected contributions
-
-I am currently building this list. As contributions land, this section will highlight a small selection of useful merged pull requests with clear technical impact.
-
-<p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="" />
-</p>
-
-<p align="center">
-  <sub>Clear evidence · focused changes · maintainable fixes</sub>
-</p>
