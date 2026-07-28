@@ -2,6 +2,8 @@
   <img src="./assets/header.svg" width="100%" alt="subotac — open-source contributor" />
 </p>
 
+<h3 align="center">Student · Open-source contributor</h3>
+
 <p align="center">
   <img src="https://img.shields.io/badge/Open%20Source-0f172a?style=for-the-badge&amp;logo=opensourceinitiative&amp;logoColor=22d3ee" alt="Open Source" />
   <img src="https://img.shields.io/badge/Small%20Diffs-0f172a?style=for-the-badge&amp;logo=git&amp;logoColor=a5b4fc" alt="Small Diffs" />
