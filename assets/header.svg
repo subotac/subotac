@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">subotac — open-source contributor</title>
+  <desc id="desc">Animated neon banner highlighting reproducible bugs, regression tests, and cross-platform correctness.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f">
+        <animate attributeName="stop-color" values="#07111f;#11102c;#07111f" dur="12s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="0.52" stop-color="#101a38">
+        <animate attributeName="stop-color" values="#101a38;#082d35;#101a38" dur="12s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="1" stop-color="#071923">
+        <animate attributeName="stop-color" values="#071923;#18102e;#071923" dur="12s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#818cf8"/>
+      <stop offset="1" stop-color="#f472b6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.12 0;0.12 0;-0.12 0" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <radialGradient id="orb">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#a5b4fc" stroke-width="0.7" opacity="0.12"/>
+      <circle cx="0" cy="0" r="1.2" fill="#67e8f9" opacity="0.32"/>
+    </pattern>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="rounded">
+      <rect x="4" y="4" width="1192" height="312" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#rounded)">
+    <rect width="1200" height="320" fill="url(#background)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+
+    <circle cx="180" cy="120" r="210" fill="url(#orb)" opacity="0.15">
+      <animate attributeName="cx" values="180;310;180" dur="11s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="120;185;120" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1020" cy="220" r="240" fill="url(#orb)" opacity="0.11">
+      <animate attributeName="cx" values="1020;900;1020" dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="220;135;220" dur="10s" repeatCount="indefinite"/>
+    </circle>
+
+    <g fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.48">
+      <path d="M-20 72 H210 L255 27 H410" stroke-dasharray="8 12">
+        <animate attributeName="stroke-dashoffset" values="0;-80" dur="6s" repeatCount="indefinite"/>
+      </path>
+      <path d="M790 284 H944 L990 238 H1220" stroke-dasharray="9 14">
+        <animate attributeName="stroke-dashoffset" values="0;92" dur="7s" repeatCount="indefinite"/>
+      </path>
+      <path d="M1000 48 H1100 L1140 88 H1220" stroke-dasharray="5 11">
+        <animate attributeName="stroke-dashoffset" values="0;-64" dur="5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <g fill="#67e8f9" filter="url(#glow)">
+      <circle r="3.5">
+        <animateMotion path="M-20 72 H210 L255 27 H410" dur="6s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="3.5" fill="#f472b6">
+        <animateMotion path="M790 284 H944 L990 238 H1220" dur="7s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g text-anchor="middle" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">
+      <text x="600" y="118" fill="#f8fafc" font-size="70" font-weight="750" letter-spacing="7">subotac</text>
+      <rect x="388" y="139" width="424" height="3" rx="2" fill="url(#accent)" filter="url(#glow)">
+        <animate attributeName="width" values="170;424;170" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="515;388;515" dur="6s" repeatCount="indefinite"/>
+      </rect>
+
+      <g font-size="25" font-weight="560" letter-spacing="1.2">
+        <text x="600" y="190" fill="#67e8f9">reproducible bugs
+          <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.25;0.31;0.65;0.9;0.96;1" dur="9s" repeatCount="indefinite"/>
+        </text>
+        <text x="600" y="190" fill="#a5b4fc" opacity="0">focused regression tests
+          <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.29;0.35;0.58;0.64;0.96;1" dur="9s" repeatCount="indefinite"/>
+        </text>
+        <text x="600" y="190" fill="#f9a8d4" opacity="0">cross-platform correctness
+          <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.29;0.35;0.62;0.68;0.94;1" dur="9s" repeatCount="indefinite"/>
+        </text>
+      </g>
+
+      <text x="600" y="244" fill="#cbd5e1" font-size="17" letter-spacing="4">PYTHON  ·  TYPESCRIPT  ·  GO  ·  RUST</text>
+      <text x="600" y="280" fill="#94a3b8" font-size="14" letter-spacing="1.5">small diffs  /  clear evidence  /  real tests</text>
+    </g>
+  </g>
+
+  <rect x="4" y="4" width="1192" height="312" rx="28" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.72"/>
+</svg>
