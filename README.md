@@ -1,63 +1,31 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="subotac — open-source contributor" />
+  <img src="./assets/ocean-banner.webp" width="100%" alt="A leopard seal swimming through schools of fish" />
 </p>
 
-<h3 align="center">Student · Open-source contributor</h3>
+<h1 align="center">Hi, I'm subotac 🌊</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Open%20Source-0f172a?style=for-the-badge&amp;logo=opensourceinitiative&amp;logoColor=22d3ee" alt="Open Source" />
-  <img src="https://img.shields.io/badge/Small%20Diffs-0f172a?style=for-the-badge&amp;logo=git&amp;logoColor=a5b4fc" alt="Small Diffs" />
-  <img src="https://img.shields.io/badge/Regression%20Tests-0f172a?style=for-the-badge&amp;logo=pytest&amp;logoColor=f9a8d4" alt="Regression Tests" />
+  Student from Ukraine · open-source contributor · curious debugger
 </p>
+
+I like bugs that hide below the waterline: edge cases that surface on another platform, a different CPU architecture, awkward input, or the boundary between two systems.
+
+Recently, I've been contributing in Rust, Python, and Go across runtimes, compilers, type systems, terminal tools, and data formats. I aim for a reproducible failure, a small complete fix, and regression coverage that keeps the bug from swimming back.
+
+## A few fixes that landed
+
+- [Wasmtime — atomic wait values on big-endian hosts](https://github.com/bytecodealliance/wasmtime/pull/14027)
+- [Yazi — missing items in the Windows Recycle Bin](https://github.com/sxyazi/yazi/pull/4190)
+- [Apache Arrow Rust — map value nullability validation](https://github.com/apache/arrow-rs/pull/10475)
+- [Moor — huge ANSI-styled lines without buffering](https://github.com/walles/moor/pull/450)
+- [Biome — trailing newlines after HTML comments](https://github.com/biomejs/biome/pull/11118)
+
+## How I work
+
+`reproduce → understand → fix → test → verify`
+
+I'm a student building practical experience in public, one useful patch and one maintainer review at a time.
 
 <p align="center">
-  I contribute to open-source projects by fixing reproducible bugs and adding focused regression tests.
+  <sub>🐟 Small fixes · deep dives · open source 🦭</sub>
 </p>
-
-<p align="center">
-  I'm a student building practical experience through real-world codebases and maintainer feedback.<br />
-  I want that practice to be useful to others, so I focus on fixes that projects can review, test, and keep.
-</p>
-
-<p align="center">
-  <img src="./assets/divider.svg" width="100%" alt="" />
-</p>
-
-## What I focus on
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Correctness at the edges</h3>
-      <ul>
-        <li>Windows paths and cross-platform behavior</li>
-        <li>Unicode, empty input, and boundary conditions</li>
-        <li>Time zones, serialization, and round trips</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>Reviewer-friendly changes</h3>
-      <ul>
-        <li>Small, complete, and focused diffs</li>
-        <li>Regression coverage where practical</li>
-        <li>Compatibility with existing design</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <img src="./assets/workflow.svg" width="100%" alt="Reproduce, fix, verify" />
-</p>
-
-## Tools I work with
-
-<p>
-  <img src="https://img.shields.io/badge/Python-101827?style=flat-square&amp;logo=python&amp;logoColor=67e8f9" alt="Python" />
-  <img src="https://img.shields.io/badge/TypeScript-101827?style=flat-square&amp;logo=typescript&amp;logoColor=a5b4fc" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Go-101827?style=flat-square&amp;logo=go&amp;logoColor=67e8f9" alt="Go" />
-  <img src="https://img.shields.io/badge/Rust-101827?style=flat-square&amp;logo=rust&amp;logoColor=f9a8d4" alt="Rust" />
-  <img src="https://img.shields.io/badge/Git-101827?style=flat-square&amp;logo=git&amp;logoColor=fca5a5" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-101827?style=flat-square&amp;logo=githubactions&amp;logoColor=a5b4fc" alt="GitHub Actions" />
-</p>
-
